@@ -32,7 +32,12 @@ export const schema = V.Object({
       minimum: 0
     })
   ),
-  position: V.Optional(V.EnumKeys(Positions, {default: 'BottomRight'}))
+  position: V.Optional(
+    V.EnumKeys(Positions, {
+      default: 'BottomRight',
+      examples: Object.keys(Positions)
+    })
+  )
 });
 type Variables = Static<typeof schema>;
 

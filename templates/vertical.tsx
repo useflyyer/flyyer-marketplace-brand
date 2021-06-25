@@ -28,7 +28,12 @@ export const schema = V.Object({
     examples: [logo]
   }),
 
-  position: V.Optional(V.EnumKeys(Positions, {default: 'BottomLeft'}))
+  position: V.Optional(
+    V.EnumKeys(Positions, {
+      default: 'BottomLeft',
+      examples: Object.keys(Positions)
+    })
+  )
 });
 type Variables = Static<typeof schema>;
 
