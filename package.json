@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@flayyer/flayyer-types": "^1.11.2",
-    "@flayyer/proxy": "^0.1.0",
+    "@flayyer/proxy": "^1.0.0",
     "@flayyer/variables": "^1.6.0",
     "clsx": "^1.1.1",
     "react": "^17.0.1",

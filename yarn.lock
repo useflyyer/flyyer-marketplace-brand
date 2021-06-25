@@ -978,10 +978,10 @@
   resolved "https://registry.yarnpkg.com/@flayyer/goerr/-/goerr-1.2.0.tgz#ac49ccde7ef9cf15b083a3b8a9dfcc2b98036c35"
   integrity sha512-CvCxjtJiPyPLudiN8l1ax4lNJNhZmJ04XI0RidNCOMaT2e8zHp54KXYlOyAb0gbl80TTKhfhrTicgJeXm1tjsg==
 
-"@flayyer/proxy@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@flayyer/proxy/-/proxy-0.1.0.tgz#5314c8813d6af78f14b453fb28259374c8128782"
-  integrity sha512-9TJ/vVt4gUx7Q8KYblQEi8yiKYt1Z9ai/cN6idm9TJe4wUA7nHj9pda7LGVElORun5LfBs+R3cVPVYSt1m6cJA==
+"@flayyer/proxy@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@flayyer/proxy/-/proxy-1.0.0.tgz#0500fe712e3bf1e46c378a126676f9cfff181640"
+  integrity sha512-zY97nXv+3zwhUOvUeDhmcA+Vnoa1yG8iHTuLz7kBhz/maLak6a2Y+GRrHbCwPPtk/dtUC3D6FWLQmTD1NfaWRA==
 
 "@flayyer/variables@^1.6.0":
   version "1.6.0"
