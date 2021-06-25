@@ -43,7 +43,6 @@ export default function HorizontalTemplate(props: TemplateProps<Variables>) {
 
   const logoRef = useRef<HTMLImageElement | null>(null);
   const [canvas, error] = useImageAsCanvas(logoRef.current);
-  console.log({x: 0, y: 0, width: 1, height: canvas?.height, size: 1});
 
   const palette = usePalette(canvas, {
     x: 0,
