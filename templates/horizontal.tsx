@@ -81,11 +81,12 @@ export default function HorizontalTemplate(props: TemplateProps<Variables>) {
               ? 'banner:justify-end'
               : 'banner:justify-start'
           )}
-          style={{backgroundColor: color || 'black'}}
+          style={{backgroundColor: color || 'white'}}
         >
           <img
             ref={logoRef}
             src={proxy(logo)}
+            crossOrigin=""
             className={clsx('h-full w-auto object-contain')}
           />
         </div>

@@ -87,11 +87,12 @@ export default function VerticalTemplate(props: TemplateProps<Variables>) {
               ? 'banner:justify-end'
               : 'banner:justify-start'
           )}
-          style={{backgroundColor: color || 'black', width: '100vh'}}
+          style={{backgroundColor: color || 'white', width: '100vh'}}
         >
           <img
             ref={logoRef}
             src={proxy(logo)}
+            crossOrigin=""
             className={clsx('h-full w-auto object-contain')}
           />
         </div>
