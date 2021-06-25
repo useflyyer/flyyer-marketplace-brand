@@ -8129,10 +8129,10 @@ url@^0.11.0:
     punycode "1.3.2"
     querystring "0.2.0"
 
-use-smartcrop@^0.3.4:
-  version "0.3.4"
-  resolved "https://registry.yarnpkg.com/use-smartcrop/-/use-smartcrop-0.3.4.tgz#8ece2fcc657158660741f19b10add8ee919842c5"
-  integrity sha512-aXctUrAQ4+ahBQ9AUcEWy7KPxbQIOlp5N3ilFozGDujPoWm9ZHre7APR7boQyxdvLKKkMvEDh5kqaGHxB2k6kg==
+use-smartcrop@^1.0.0-beta.1:
+  version "1.0.0-beta.1"
+  resolved "https://registry.yarnpkg.com/use-smartcrop/-/use-smartcrop-1.0.0-beta.1.tgz#97bdbe34ac9ba8d5263517ee1b5e2566db3f1e2c"
+  integrity sha512-xlGyjW/n1MML69qxBaRz6Or12puaAoXanisNXNYIzoXdZYXpYuOKV26njbxqTCwFF5DSWkPv/ZiEaZSxIm8PRQ==
   dependencies:
     smartcrop "^2.0.3"
 

@@ -88,5 +88,4 @@ The development server (`npm run start`) can be buggy sometimes. Please restart 
 
 ---
 
-> Default image credits: [Photo by Osvaldo Castillo from Pexels](https://images.pexels.com/photos/3402313/pexels-photo-3402313.jpeg)
-> Default image credits: [Photo by Anni Roenkae from Pexels](https://images.pexels.com/photos/2693212/pexels-photo-2693212.jpeg)
+> Default images credits: [Photo by August de Richelieu from Pexels](https://www.pexels.com/@august-de-richelieu)

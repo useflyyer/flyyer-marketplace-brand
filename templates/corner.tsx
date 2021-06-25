@@ -11,24 +11,17 @@ import logo from '../static/logoipsum.png';
 import example from '../static/example.jpeg';
 
 import {Layer} from '../components/layers';
-
-enum Positions {
-  BottomRight = 'bottom-0 right-0 object-right-bottom',
-  BottomLeft = 'bottom-0 left-0 object-left-bottom',
-  TopRight = 'top-0 right-0 object-right-top',
-  TopLeft = 'top-0 left-0 object-left-top'
-}
+import {Positions} from '../components/positions';
 
 /**
  * Export to enable variables UI on Flayyer.com
  */
 export const schema = V.Object({
   image: V.Image({
-    title: 'Background image URL',
+    title: 'Background image',
     examples: [example]
   }),
   logo: V.Image({
-    title: 'Logo URL',
     examples: [logo]
   }),
   logoMargin: V.Optional(
@@ -46,7 +39,7 @@ type Variables = Static<typeof schema>;
 const validator = new Validator(schema);
 
 // Make sure to 'export default' a React component
-export default function MainTemplate(props: TemplateProps<Variables>) {
+export default function CornerTemplate(props: TemplateProps<Variables>) {
   const {width, height, variables} = props;
 
   const {
@@ -71,7 +64,7 @@ export default function MainTemplate(props: TemplateProps<Variables>) {
             src={proxy(logo)}
             style={{margin: logoMargin}}
             className={clsx(
-              'absolute h-10 sq:h-16 story:18 max-w-screen object-contain',
+              'absolute h-10 sq:h-16 story:h-18 max-w-screen object-contain',
               position && Positions[position]
             )}
           />

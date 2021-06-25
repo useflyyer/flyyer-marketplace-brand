@@ -15,7 +15,7 @@
     "clsx": "^1.1.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "use-smartcrop": "^0.3.4"
+    "use-smartcrop": "^1.0.0-beta.1"
   },
   "devDependencies": {
     "@flayyer/cli": "^1.18.1",
@@ -45,6 +45,9 @@
       "unicorn/prefer-module": "off",
       "@typescript-eslint/no-unsafe-assignment": "off",
       "@typescript-eslint/triple-slash-reference": "off",
+      "@typescript-eslint/no-non-null-assertion": "off",
+      "@typescript-eslint/prefer-optional-chain": "off",
+      "@typescript-eslint/prefer-nullish-coalescing": "off",
       "@typescript-eslint/no-unused-vars": "off"
     }
   }
