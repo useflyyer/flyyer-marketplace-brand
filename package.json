@@ -1,24 +1,24 @@
 {
-  "name": "@flayyer/branded",
+  "name": "@flyyer/branded",
   "version": "1.1.0",
   "private": true,
   "scripts": {
-    "start": "flayyer start",
-    "build": "flayyer build",
-    "deploy": "flayyer deploy",
+    "start": "flyyer start",
+    "build": "flyyer build",
+    "deploy": "flyyer deploy",
     "format": "xo --fix"
   },
   "dependencies": {
-    "@flayyer/flayyer-types": "^1.11.2",
-    "@flayyer/proxy": "^1.0.0",
-    "@flayyer/variables": "^1.6.0",
+    "@flyyer/types": "^2.0.0",
+    "@flyyer/proxy": "^2.0.0",
+    "@flyyer/variables": "^2.0.0",
     "clsx": "^1.1.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "use-smartcrop": "^1.0.0-beta.1"
   },
   "devDependencies": {
-    "@flayyer/cli": "^1.18.1",
+    "@flyyer/cli": "^2.0.0",
     "@fullhuman/postcss-purgecss": "^4.0.3",
     "@tailwindcss/postcss7-compat": "^2.1.2",
     "@types/react": "^17.0.4",

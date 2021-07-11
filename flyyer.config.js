@@ -1,12 +1,12 @@
-// Created with create-flayyer-app@1.18.2
+// Created with create-flyyer-app@1.18.2
 
-const {config} = require('@flayyer/flayyer-types');
+const {config} = require('@flyyer/types');
 const {default: endent} = require('endent');
 require('dotenv').config();
 
 module.exports = config({
   engine: 'react-typescript',
-  key: process.env.FLAYYER_KEY,
+  key: process.env.FLYYER_KEY,
   deck: 'branded',
 
   // Optionals
@@ -18,10 +18,10 @@ module.exports = config({
 
     > Default images credits: [Photo by August de Richelieu from Pexels](https://www.pexels.com/@august-de-richelieu)
   `,
-  homepage: 'https://flayyer.com',
+  homepage: 'https://flyyer.io',
   license: 'MIT',
-  keywords: ['flayyer'],
-  repository: 'https://github.com/flayyer/flayyer-marketplace-brand',
-  private: false, // Set to false to deploy publicly to https://flayyer.com/community
+  keywords: ['flyyer'],
+  repository: 'https://github.com/flyyer/flyyer-marketplace-brand',
+  private: false, // Set to false to deploy publicly to https://flyyer.io/community
   sizes: ['THUMBNAIL', 'BANNER', 'SQUARE', 'STORY'] // Declare supported sizes
 });

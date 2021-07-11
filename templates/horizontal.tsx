@@ -1,7 +1,7 @@
 import React, {useRef} from 'react';
-import {Variable as V, Validator, Static} from '@flayyer/variables';
-import {TemplateProps} from '@flayyer/flayyer-types';
-import {proxy} from '@flayyer/proxy';
+import {Variable as V, Validator, Static} from '@flyyer/variables';
+import {TemplateProps} from '@flyyer/types';
+import {proxy} from '@flyyer/proxy';
 import {useImageAsCanvas, usePalette, useSmartcrop} from 'use-smartcrop';
 import clsx from 'clsx';
 
@@ -15,7 +15,7 @@ import {Positions} from '../components/positions';
 import {RGB_TO_HEX} from '../components/utils';
 
 /**
- * Export to enable variables UI on Flayyer.com
+ * Export to enable variables UI on Flyyer.io
  */
 export const schema = V.Object({
   image: V.Image({
@@ -27,12 +27,10 @@ export const schema = V.Object({
     default: logo,
     examples: [logo]
   }),
-  position: V.Optional(
-    V.EnumKeys(Positions, {
-      default: 'BottomLeft',
-      examples: Object.keys(Positions)
-    })
-  )
+  position: V.EnumKeys(Positions, {
+    default: 'BottomLeft',
+    examples: Object.keys(Positions)
+  })
 });
 type Variables = Static<typeof schema>;
 
@@ -66,7 +64,7 @@ export default function HorizontalTemplate(props: TemplateProps<Variables>) {
   });
 
   return (
-    <Layer className={clsx({'flayyer-ready': cropped.status})}>
+    <Layer className={clsx({'flyyer-ready': cropped.status})}>
       <Layer>
         <img className="w-full h-full object-cover" src={cropped.src} />
       </Layer>

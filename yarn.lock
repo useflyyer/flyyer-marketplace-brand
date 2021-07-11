@@ -932,63 +932,69 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@flayyer/cli@^1.18.1":
-  version "1.18.1"
-  resolved "https://registry.yarnpkg.com/@flayyer/cli/-/cli-1.18.1.tgz#d08a3edc4fbeb9c145cbd48f54f6ab77f1e5882c"
-  integrity sha512-3l3zL2/qjQTzH0rOYvNeYZuKvceXvNef5NcDz4N5GrFNGlngx2inAsGSJHTIoJRO/fTqd7sepAYsvOT1jGM0rg==
+"@flyyer/cli@^2.0.0":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@flyyer/cli/-/cli-2.0.1.tgz#7b9986c686b3ceec9eb5982c696771cbb7807bec"
+  integrity sha512-25H4Tv18v93n4vVZ7OJR82RwOKKc0ek7tmPzlYzRLm9TmTNHCxs3HH80u60j/J6N2yi3AIimezFL3U0cCFLOaQ==
   dependencies:
-    "@flayyer/flayyer" "^2.3.2"
-    "@flayyer/flayyer-types" "^1.11.2"
-    "@flayyer/goerr" "^1.2.0"
+    "@flyyer/flyyer" "^3.0.1"
+    "@flyyer/goerr" "^2.0.1"
+    "@flyyer/types" "^2.0.2"
+    "@flyyer/utils" "^0.2.1"
     "@oclif/command" "^1.8.0"
     "@oclif/config" "^1.17.0"
     "@oclif/plugin-help" "^3.2.2"
     archiver "^5.3.0"
     chalk "^4.1.1"
-    chokidar "^3.5.1"
+    chokidar "^3.5.2"
     cross-fetch "^3.1.4"
-    debug "^4.3.1"
+    debug "^4.3.2"
     dedent "^0.7.0"
     del "^6.0.0"
     form-data "^4.0.0"
-    graphql "^15.5.0"
+    graphql "^15.5.1"
     graphql-request "3.4.0"
     mini-svg-data-uri "^1.3.3"
     open "~7.4.2"
     parcel-bundler "^1.12.5"
     qs "^6.10.1"
-    tslib "^2.2.0"
+    tslib "^2.3.0"
     twemoji "^13.1.0"
 
-"@flayyer/flayyer-types@^1.11.2":
-  version "1.11.2"
-  resolved "https://registry.yarnpkg.com/@flayyer/flayyer-types/-/flayyer-types-1.11.2.tgz#86a11787ba2d1a73ca59cb48f0bef1505e409932"
-  integrity sha512-e9wyZ8wFXmt2cjWTZM9y66d8zed2T4ukIuJ0pwC3AZwq8qHgkEjId9+PfqFjXVreRKUPhfdwL1179yrOQG/EdQ==
-
-"@flayyer/flayyer@^2.3.2":
-  version "2.3.3"
-  resolved "https://registry.yarnpkg.com/@flayyer/flayyer/-/flayyer-2.3.3.tgz#31dc1b57b49d864e5ac4177e2ed3481da386d180"
-  integrity sha512-m0MgPbFoqx+EfYINI7++j0lIMYXNEjFXigxQ9+jQjNGm8J1QsjafWX3tqqXxasDOfJjzGY2bTO94KZRSV+/WRQ==
+"@flyyer/flyyer@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@flyyer/flyyer/-/flyyer-3.0.1.tgz#9777da368b473c302479112b85fd287b64b6dbe6"
+  integrity sha512-qfJU4W7zBSEYDEdHX6b5u3BuA/tUHj3iIZ4mSWQN+r1uOG6lKIgVXk/oLNtZgcUM9wP+rzCISLAz8Awbpq8uVw==
   dependencies:
     "@types/qs" "^6.9.6"
     qs "^6.10.1"
 
-"@flayyer/goerr@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@flayyer/goerr/-/goerr-1.2.0.tgz#ac49ccde7ef9cf15b083a3b8a9dfcc2b98036c35"
-  integrity sha512-CvCxjtJiPyPLudiN8l1ax4lNJNhZmJ04XI0RidNCOMaT2e8zHp54KXYlOyAb0gbl80TTKhfhrTicgJeXm1tjsg==
+"@flyyer/goerr@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@flyyer/goerr/-/goerr-2.0.1.tgz#5dcd04d54bcf2b133419946e41eeee7e53968a5d"
+  integrity sha512-BrQ8QCFxwk6Hohdx8sbDuyOBuFWqafFcYf/T91WvQKRzG4/789pAm+Q108PBmA9HG3GHdWWHskgAsd+D2dhkHA==
 
-"@flayyer/proxy@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@flayyer/proxy/-/proxy-1.0.0.tgz#0500fe712e3bf1e46c378a126676f9cfff181640"
-  integrity sha512-zY97nXv+3zwhUOvUeDhmcA+Vnoa1yG8iHTuLz7kBhz/maLak6a2Y+GRrHbCwPPtk/dtUC3D6FWLQmTD1NfaWRA==
+"@flyyer/proxy@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@flyyer/proxy/-/proxy-2.0.0.tgz#e37a50787ecbf664d8ef81fd621ac9f980830ff4"
+  integrity sha512-RsHfAOIRH/ISwv5vP+nyAdLwhu+KO2Fryyd2hoO8IAop3JOg7lKF0qExYKV9x/87sK0VzuVN7zLqs1AXTxwA+g==
 
-"@flayyer/variables@^1.6.0":
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/@flayyer/variables/-/variables-1.6.0.tgz#6d0b927f2577f36908c5d024e5ea70ac3d33e2b0"
-  integrity sha512-ol0OJP0kjMnsCbmqh6i1yD0GR24fMgs3XUYevn0Mls8489cr40mODqKhBmq5s+DseuCShyDPoyNX50XbwuSWkQ==
+"@flyyer/types@^2.0.0", "@flyyer/types@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@flyyer/types/-/types-2.0.2.tgz#0298fa46cec31391d33e914e0471ff0b614022ef"
+  integrity sha512-Omlz4NjVw4joo8iu0LQBU0bRigz8zK/vP2gnxfgoFgjhsOCu0cccvGC8QL5fE68n0hUww4IYQvu/Pnl74FomRA==
+
+"@flyyer/utils@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@flyyer/utils/-/utils-0.2.1.tgz#07bcbe5e9e744f55bff93ee0b5af492824b851d6"
+  integrity sha512-SESwzdsrFe2GT36ohbxNRL6jDUtPbXzZHpb/EWUQP0EtyHbi8o1iSaELbeU/dktszmgbZqRpUKykRwHD/+b6Yg==
+
+"@flyyer/variables@^2.0.0":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@flyyer/variables/-/variables-2.0.1.tgz#77dc04d2a9d9f82cddd3eaee8b85029d4c7a9ef4"
+  integrity sha512-FMwC/K6AuZWzrJMqQF0Sr3/Qlv7fAtiBsrA+DO2BWrESvyfFphZkNfTgTIpC4ReOw1LYRdpu7pQ5lG8AKSlpzA==
   dependencies:
-    "@sinclair/typebox" "^0.16.7"
+    "@sinclair/typebox" "^0.17.1"
     ajv "^8.6.0"
     ajv-formats "^2.1.0"
 
@@ -1152,10 +1158,10 @@
     "@parcel/utils" "^1.11.0"
     physical-cpu-count "^2.0.0"
 
-"@sinclair/typebox@^0.16.7":
-  version "0.16.7"
-  resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.16.7.tgz#3187369b2ff237f57477ef155be4c992e592fa7c"
-  integrity sha512-d12AkLZJXD30hXBhJSgf33RqGO0NMHIDzsQPYfp6WGoaSuMnSGIUanII2OUbeZFnD/j3Nbl2zifgO2+5tPClCQ==
+"@sinclair/typebox@^0.17.1":
+  version "0.17.1"
+  resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.17.1.tgz#945392b4aaab513ec7899c48ab0040e9933b46b9"
+  integrity sha512-rva9A1kYSDDmXnu/YfBNlW1RbZVJJo8rzY+9gytOxpG9FF+lgL/8JHK6gJsXA1mFjO8DF7+55BiR7MP+zQMLCA==
 
 "@tailwindcss/postcss7-compat@^2.1.2", "tailwindcss@npm:@tailwindcss/postcss7-compat":
   version "2.2.4"
@@ -2170,7 +2176,7 @@ chokidar@^2.1.5:
   optionalDependencies:
     fsevents "^1.2.7"
 
-chokidar@^3.5.1, chokidar@^3.5.2:
+chokidar@^3.5.2:
   version "3.5.2"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.5.2.tgz#dba3976fcadb016f66fd365021d91600d01c1e75"
   integrity sha512-ekGhOnNVPgT77r4K/U3GDhu+FQ2S8TnK/s2KbIGXi0SZWuwkZ2QNyfWdZW+TVfn84DpEP7rLeCt2UI6bJ8GwbQ==
@@ -2756,6 +2762,13 @@ debug@^4.0.1, debug@^4.1.0, debug@^4.1.1, debug@^4.3.1:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.1.tgz#f0d229c505e0c6d8c49ac553d1b13dc183f6b2ee"
   integrity sha512-doEwdvm4PCeK4K3RQN2ZC2BYUBaxwLARCqZmMjtF8a51J2Rb0xpVloFRnCODwqjpwnAoao4pelN8l3RJdv3gRQ==
+  dependencies:
+    ms "2.1.2"
+
+debug@^4.3.2:
+  version "4.3.2"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.2.tgz#f0a49c18ac8779e31d4a0c6029dfb76873c7428b"
+  integrity sha512-mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw==
   dependencies:
     ms "2.1.2"
 
@@ -4062,7 +4075,7 @@ graphql-request@3.4.0:
     extract-files "^9.0.0"
     form-data "^3.0.0"
 
-graphql@^15.5.0:
+graphql@^15.5.1:
   version "15.5.1"
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-15.5.1.tgz#f2f84415d8985e7b84731e7f3536f8bb9d383aad"
   integrity sha512-FeTRX67T3LoE3LWAxxOlW2K3Bz+rMYAC18rRguK4wgXaTZMiJwSUwDmPFo3UadAKbzirKIg5Qy+sNJXbpPRnQw==
@@ -7902,7 +7915,7 @@ tslib@^1.8.1, tslib@^1.9.3:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
-tslib@^2.0.0, tslib@^2.2.0:
+tslib@^2.0.0, tslib@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.0.tgz#803b8cdab3e12ba581a4ca41c8839bbb0dacb09e"
   integrity sha512-N82ooyxVNm6h1riLCoyS9e3fuJ3AMG2zIZs2Gd1ATcSFjSA23Q0fzjjZeh0jbJvWVDZ0cJT8yaNNaaXHzueNjg==
