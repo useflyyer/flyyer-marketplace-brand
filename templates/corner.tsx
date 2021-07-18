@@ -49,16 +49,20 @@ export default function CornerTemplate(props: TemplateProps<Variables>) {
     data: {image, logo, logoMargin, position}
   } = validator.parse(variables);
 
-  const cropped = useSmartcrop(proxy(image), {
-    width,
-    height,
-    minScale: 1
-  });
+  const [cropped, errorCrop] = useSmartcrop(
+    {src: proxy(image)},
+    {width, height, minScale: 1}
+  );
+  if (errorCrop) {
+    console.error(errorCrop);
+  }
 
   return (
-    <Layer className={clsx({'flyyer-ready': cropped.status})}>
+    <Layer className={clsx({'flyyer-ready': Boolean(cropped)})}>
       <Layer>
-        <img className="w-full h-full object-cover" src={cropped.src} />
+        {cropped && (
+          <img className="w-full h-full object-cover" src={cropped} />
+        )}
       </Layer>
       {/* <Layer className="bg-gradient-to-t from-black opacity-0 banner:opacity-60" /> */}
       <Layer className="story:py-storysafe">

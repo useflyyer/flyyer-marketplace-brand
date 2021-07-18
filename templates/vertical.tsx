@@ -58,18 +58,22 @@ export default function VerticalTemplate(props: TemplateProps<Variables>) {
   const rgb = palette && palette[0];
   const color = rgb && RGB_TO_HEX(rgb[0], rgb[1], rgb[2]);
 
-  const cropped = useSmartcrop(proxy(image), {
-    width,
-    height,
-    minScale: 1
-  });
+  const [cropped, errorCrop] = useSmartcrop(
+    {src: proxy(image)},
+    {width, height, minScale: 1}
+  );
+  if (errorCrop) {
+    console.error(errorCrop);
+  }
 
   // TODO: Make code more easy to understand, this was code in a rush.
 
   return (
-    <Layer className={clsx({'flyyer-ready': cropped.status})}>
+    <Layer className={clsx({'flyyer-ready': Boolean(cropped)})}>
       <Layer>
-        <img className="w-full h-full object-cover" src={cropped.src} />
+        {cropped && (
+          <img className="w-full h-full object-cover" src={cropped} />
+        )}
       </Layer>
       <Layer
         className={clsx(

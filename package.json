@@ -15,7 +15,7 @@
     "clsx": "^1.1.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "use-smartcrop": "^1.0.0"
+    "use-smartcrop": "^1.0.1"
   },
   "devDependencies": {
     "@flyyer/cli": "^2.0.0",
@@ -26,12 +26,13 @@
     "dotenv": "^10.0.0",
     "endent": "^2.1.0",
     "eslint-config-xo-react": "^0.25.0",
+    "eslint-config-xo-typescript": "^0.43.0",
     "eslint-plugin-react": "^7.23.1",
     "eslint-plugin-react-hooks": "^4.2.0",
     "postcss": "^7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "typescript": "^4.3.5",
-    "xo": "^0.40.3"
+    "xo": "^0.39.0"
   },
   "xo": {
     "prettier": true,
