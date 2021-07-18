@@ -15,13 +15,13 @@
     "clsx": "^1.1.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "use-smartcrop": "^1.0.0-beta.1"
+    "use-smartcrop": "^1.0.0"
   },
   "devDependencies": {
     "@flyyer/cli": "^2.0.0",
     "@fullhuman/postcss-purgecss": "^4.0.3",
     "@tailwindcss/postcss7-compat": "^2.1.2",
-    "@types/react": "^17.0.4",
+    "@types/react": "^17.0.14",
     "autoprefixer": "^9",
     "dotenv": "^10.0.0",
     "endent": "^2.1.0",
@@ -30,7 +30,7 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "postcss": "^7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
-    "typescript": "^4.2.4",
+    "typescript": "^4.3.5",
     "xo": "^0.40.3"
   },
   "xo": {
