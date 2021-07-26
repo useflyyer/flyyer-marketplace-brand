@@ -69,7 +69,7 @@ export default function VerticalTemplate(props: TemplateProps<Variables>) {
   // TODO: Make code more easy to understand, this was code in a rush.
 
   return (
-    <Layer className={clsx({'flyyer-ready': Boolean(cropped)})}>
+    <Layer className={clsx({'flyyer-wait': !cropped})}>
       <Layer>
         {cropped && (
           <img className="w-full h-full object-cover" src={cropped} />

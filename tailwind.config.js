@@ -74,7 +74,7 @@ module.exports = {
     /**
      * We recommend breakpoints based on height rather than width.
      * This is not optimal yet and we are still trying to get a better setup.
-     * Help us defining the best config at https://github.com/flyyer/create-flyyer-app/issues/3
+     * Help us defining the best config at https://github.com/useflyyer/create-flyyer-app/issues/3
      */
     screens: {
       /* For apps where images are always small squares such as WhatsApp (400x400px) */

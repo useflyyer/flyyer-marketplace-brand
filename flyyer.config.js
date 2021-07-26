@@ -18,10 +18,10 @@ module.exports = config({
 
     > Default images credits: [Photo by August de Richelieu from Pexels](https://www.pexels.com/@august-de-richelieu)
   `,
-  homepage: 'https://flyyer.io',
+  homepage: 'https://www.flyyer.io',
   license: 'MIT',
   keywords: ['flyyer'],
-  repository: 'https://github.com/flyyer/flyyer-marketplace-brand',
+  repository: 'https://github.com/useflyyer/flyyer-marketplace-brand',
   private: false, // Set to false to deploy publicly to https://flyyer.io/community
   sizes: ['THUMBNAIL', 'BANNER', 'SQUARE', 'STORY'] // Declare supported sizes
 });

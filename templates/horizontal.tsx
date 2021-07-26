@@ -66,7 +66,7 @@ export default function HorizontalTemplate(props: TemplateProps<Variables>) {
   }
 
   return (
-    <Layer className={clsx({'flyyer-ready': Boolean(cropped)})}>
+    <Layer className={clsx({'flyyer-wait': !cropped})}>
       <Layer>
         {cropped && (
           <img className="w-full h-full object-cover" src={cropped} />

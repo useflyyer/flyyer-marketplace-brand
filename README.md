@@ -15,7 +15,7 @@ npm run start --port 3000 --host 0.0.0.0
 
 Then preview your template at [https://useflyyer.github.io/studio](https://useflyyer.github.io/studio)
 
-[![flyyer-studio screenshot](https://raw.githubusercontent.com/flyyer/flyyer-studio/main/.github/screenshot.png)](https://useflyyer.github.io/studio)
+[![flyyer-studio screenshot](https://raw.githubusercontent.com/useflyyer/flyyer-studio/main/.github/screenshot.png)](https://useflyyer.github.io/studio)
 
 ## Deployment
 
